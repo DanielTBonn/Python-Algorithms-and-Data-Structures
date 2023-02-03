@@ -74,9 +74,6 @@ class TreeNode:
                     self.parent.right_child = self.right_child
                 self.right_child.parent = self.parent
 
-
-
-
     def __iter__(self):
         if self:
             if self.left_child:
@@ -86,7 +83,6 @@ class TreeNode:
             if self.right_child:
                 for elem in self.right_child:
                     yield elem
-
 
 class BinarySearchTree:
     def __init__(self):
