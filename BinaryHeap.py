@@ -129,7 +129,6 @@ class LimitBinaryHeap(MinBinaryHeap):
         self._heap = []
         self._limit = limit
 
-
     def _get_max_leaf_idx(self):
         # Since a binary heap has 2 children for every parent and the largest nodes at the bottom, we only need to search between
         # half the length of the heap and the end of it
