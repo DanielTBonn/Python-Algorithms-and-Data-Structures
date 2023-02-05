@@ -31,5 +31,3 @@ class BinaryTree:
 
     def get_right_child(self):
         return self.right_child
-
-
